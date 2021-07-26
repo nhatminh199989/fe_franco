@@ -6,7 +6,7 @@
     footer {
         width: 100%;
         padding-top: 60px;
-
+        .montserrat;
         background-color: @_black-0;
         box-sizing: border-box;
     }
@@ -27,6 +27,7 @@
             flex-direction: column;
             max-width: 263px;
             width: 100%;
+            .montserrat;
         }
 
         &-title {
@@ -63,7 +64,8 @@
             margin-bottom: 40px;
             .flex-cross--center;
             flex-direction: column;
-
+            .montserrat;
+            
             &-container {
                 .flex-main--between;
                 width: 100%;
@@ -94,11 +96,15 @@
         &-link{
             font-size: 13px;
             margin-bottom: 15px;
+        }
+        
+        &-link:hover{
+            color: @_white-0;
+            text-decoration: underline;
+        }
 
-            &--active {
-                color: @_white-0;
-                text-decoration: underline;
-            }
+        &-list li{
+            margin-bottom: 20px;
         }
 
         &-location {
@@ -207,6 +213,7 @@
              .flex-main--between;
              flex-direction: row;
              align-items: flex-start;
+             margin-bottom: 50px;
          }
 
         &-title {
